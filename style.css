@@ -1,0 +1,29 @@
+.customize-btn{
+    background: transparent;
+    border: 2px solid black;
+}
+
+.customize-btn:hover{
+    background: rgba(27, 27, 27);
+    color: white;
+}
+
+h4{
+    line-height: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bold{
+    border: 2px solid;
+}
+
+input{
+    height: 40px;
+}
+#apply-btn{
+    background: rgb(238, 42, 75);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
