@@ -57,6 +57,7 @@ function checkPromoCode() {
     }
     else {
         isPromoActive = false;
+        alert("This promo code doesn't exist");
     }
 
     // apply appropriate discount on total Price and show total amount payable
@@ -66,7 +67,7 @@ function checkPromoCode() {
 
 // Applying event listener to individual buttons by iterating the HTML Collections of Buttons.
 for (const button of buttons) {
-    button.addEventListener('click', function (event) {
+    button.addEventListener('click', function () {
         if (button.id === '8gb-memory') {
             updateCost("memory", 0);
         }

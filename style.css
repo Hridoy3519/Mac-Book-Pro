@@ -3,6 +3,7 @@
     background: transparent;
     padding: 10px 5px;
     border: 2px solid black;
+    border-radius: 5px;
 }
 
 .customize-btn:hover{
@@ -26,7 +27,7 @@ input{
     height: 40px;
 }
 
-/* Applu Button  */
+/* Apply Button  */
 #apply-btn{
     background: rgb(238, 42, 75);
     border: none;
