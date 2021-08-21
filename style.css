@@ -1,5 +1,7 @@
+/* button Customization */
 .customize-btn{
     background: transparent;
+    padding: 10px 5px;
     border: 2px solid black;
 }
 
@@ -14,13 +16,17 @@ h4{
     font-weight: bold;
 }
 
+/* hr */
 .bold{
     border: 2px solid;
 }
 
+/* Input Field */
 input{
     height: 40px;
 }
+
+/* Applu Button  */
 #apply-btn{
     background: rgb(238, 42, 75);
     border: none;
